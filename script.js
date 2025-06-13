@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask(taskInput.value);
         }
         ["classList.add"];
+        ["taskInput.value.trim()"]
     });
 
     // Charger les tâches existantes au démarrage
